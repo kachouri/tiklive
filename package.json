@@ -1,13 +1,14 @@
 {
   "name": "tiktok-live-api",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
+    "cors": "^2.8.5",
     "tiktok-live-connector": "2.0.6-beta2"
-  },
-  "type": "module"
+  }
 }
